@@ -1,0 +1,273 @@
+
+/*----------HEADER----------*/
+.bg{
+    background: url(../img/background.jpg);
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+.right-nav-panel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+font-size: 22px;
+line-height: 22px;
+text-transform: uppercase;
+padding: 18px 0;
+padding-left: 79px;
+}
+.logo-link{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+.logo-link:hover{
+    color: #01813F;
+}
+
+.login>a{
+    list-style: none;
+    text-decoration: none;
+    color: #ffffff;
+    cursor: pointer;
+}
+.login{
+    font-size: 14px;
+    line-height: 14px;
+    color: #ffffff;
+    padding:22px 79px 22px 53px ;
+}
+.icin::after{
+    border-left: 1px solid #ffffff;
+}
+    
+.login>a:hover{
+    cursor: pointer;
+    color: #01813F;
+   
+}
+
+
+.header{
+    background-color: rgba(13, 13, 13, 0.4);
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon{
+    padding:17px 0 ;
+    display: flex;
+    position: relative;
+  
+}
+
+.icon::before{
+    content: " ";
+    position: absolute;
+    border-right: solid 1px #ffffff;
+    height: 19px;
+    right: -30px;
+    bottom: 20px;
+}
+
+
+.item:hover path{
+    fill: #3CB878;
+    cursor: pointer;
+}
+.item{
+    width: 23px;
+    padding-left: 25px;
+}
+.item-1{
+    width: 21px;
+}
+.item-1:hover path{
+    fill: #3CB878;
+    cursor: pointer;
+}
+
+/*-------------FORM------------*/
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: calc(100% - 58px);
+}
+
+.modal-win{
+    margin: 0 auto;
+    margin-top: 50px;
+    padding-top: 31px;
+    padding-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 410px;
+    background-color:#ffffff;
+}
+
+.modal-box{
+    width: 324px;
+    margin: 0 auto;
+}
+
+.input-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+.input-left{
+    font-size: 20px;
+    line-height: 20px;
+    position: relative;
+    
+}
+.input-left::before{
+    content:url(../png/shape.png);
+    position: absolute;
+    left: -43px;
+
+}
+.input-right-link{
+    font-size: 14px;
+    line-height: 14px;
+    color: #3CB878;
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+.input-right-link:hover{
+    cursor: pointer;
+    text-decoration:underline;
+    color: #01813F;
+    font-weight: 500;
+   
+}
+
+.btn{
+    display: flex;
+    margin-top: 15px;
+}
+
+.left-btn{
+    border: none;
+    background-color: #305DB8;
+    color: #ffffff;
+    height: 48px;
+    width: 160px;
+    cursor: pointer;
+    margin-right: 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    outline: none;
+}
+.left-btn:hover{
+    background-color: #022263;
+}
+
+.right-btn{
+    border: none;
+    background-color: #DF4A32;
+    color: #ffffff;
+    height: 48px;
+    width: 160px;
+    cursor: pointer;
+    margin-left: 2px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    outline: none;
+}
+.right-btn:hover{
+    background-color: #AB1F09;
+}
+.btn-img{
+    padding-right: 40px;
+}
+
+.line{
+    text-align: center;
+    margin-bottom: 11px;
+    margin-top: 31px;
+    position: relative;
+}
+.line::before{
+    content: " ";
+    border-bottom:  1px solid #F2F2F2;
+    position: absolute;
+    width: 140px;
+    bottom: 5px;
+    left: -1px;
+}
+.line::after{
+    content: " ";
+    border-bottom: 1px solid #F2F2F2;
+    position: absolute;
+    width: 140px;
+    bottom: 5px;
+    right: -1px;
+  
+}
+
+.form-block{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0 20px;
+    align-items: center;
+
+}
+.form-block>input{
+    padding-right: 15px;
+    margin: 15px 0;
+    border: 1px solid #F2F2F2;
+    color: #BEBEBE;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 15px 20px;
+    width: 100%;
+    outline:none;
+}
+.form-block>input:focus{
+    color: #434343;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.21);
+}
+
+.form-btn{
+    border: none;
+    background-color:#3CB87f;
+    height: 46px;
+    width: 325px;
+    cursor: pointer;
+    align-items: center;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 16px;
+    outline: none;
+    
+}
+.form-btn:hover{
+    background-color: #01813F;
+}
+
+.color-text{
+    text-decoration: none;
+    color: #3CB878;
+    cursor: pointer;
+}
+.color-text:hover{
+    color: #01813F;
+    text-decoration: underline;
+}
+.text-checkbox{
+    width: 325px;
+}
